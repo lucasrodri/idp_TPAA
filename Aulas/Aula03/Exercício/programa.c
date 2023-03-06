@@ -7,16 +7,16 @@ int main(int argc, char *argv[]) {
     Matriz *M;
 
     // criação de uma matriz  
-    //Faça o código!
+    //TODO: Faça o código!
 
     // inserção de valores na matriz
-    //Faça o código!
+    //TODO: Faça o código!
 
     // verificando se a inserção foi feita corretamente  
-    //Faça o código!
+    //TODO: Faça o código!
 
     //Mostre valores da Matriz criada
-    //Faça o código!
+    //TODO: Faça o código!
     
     return 0;
 }
