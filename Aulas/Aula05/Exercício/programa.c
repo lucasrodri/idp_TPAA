@@ -4,13 +4,10 @@
 
 int main() {
     Pilha *pilha = cria();
-    int numero, resto = 0;
-    printf("Informe um número: ");
-    scanf("%d", &numero);
-    printf("O numero informado foi: %d ", numero);
-    int n = numero;
-    //TODO: ex1
-    printf("\nO número %d em binário é:\n", numero);
+    //TODO: Faça o Ex1
+    
+    //Mostrando o número binario
+    printf("\nO número digitado em binário é:\n");
     printf("0b");
     mostra_binario(pilha);
     pilha_libera(pilha);

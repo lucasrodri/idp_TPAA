@@ -4,10 +4,9 @@
 
 int main() {
     Pilha *pilha = cria();
-    int numero;
-    printf("Informe um número: ");
-    scanf("%d", &numero);
-    //TODO ex2
+    //TODO: Faça o Ex2
+    
+    //Percorrendo a pilha
     printf("Percorrendo a Pilha com POP:\n");
     percorrer_com_pop(pilha);
     pilha_libera(pilha);
