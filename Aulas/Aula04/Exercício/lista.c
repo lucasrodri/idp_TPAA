@@ -32,7 +32,21 @@ Lista* remover(Lista *l, int valor) {
 }   
 
 Lista *buscar(Lista *lista, int valor) {
-    //TODO: Criar a função!
+    Lista *p;
+    p = lista;
+    while (p != NULL){
+        if(p->info == valor) {
+            return p;
+        }
+        p = p->prox;
+    }
+    
+    for (p = lista; p != NULL; p = p->prox) {
+        if(p->info == valor) {
+            return p;
+        }
+    }
+    return lista;
 }
 
 void percorrer(Lista *l){
