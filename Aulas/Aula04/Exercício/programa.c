@@ -10,10 +10,9 @@ int main(int argc, char *argv[]) {
     printf("Percorrendo a Lista:\n");
     percorrer(lista);
     printf("Procurando elemento 20:\n");
-    
-    //Faça o código que busca o elemento e imprima a lista a partir deste elemento
-    //TODO: Faça o código!
-    
+    Lista *elemento = buscar(lista, 20);
+    printf("Percorrendo a Lista a partir do elemento 20:\n");
+    percorrer(elemento);
     //Removendo elemento 20
     lista = remover(lista, 20);
     printf("Percorrendo a Lista após remover o elemento 20:\n");

@@ -7,7 +7,7 @@ int main() {
     //TODO: Faça o Ex1
     
     //Mostrando o número binario
-    printf("\nO número digitado em binário é:\n");
+    printf("\nO número digitado em binário é: ");
     printf("0b");
     mostra_binario(pilha);
     pilha_libera(pilha);
