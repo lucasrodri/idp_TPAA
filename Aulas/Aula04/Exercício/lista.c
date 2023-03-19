@@ -33,16 +33,8 @@ Lista* remover(Lista *l, int valor) {
 
 Lista *buscar(Lista *lista, int valor) {
     Lista *p;
-    p = lista;
-    while (p != NULL){
-        if(p->info == valor) {
-            return p;
-        }
-        p = p->prox;
-    }
-    
     for (p = lista; p != NULL; p = p->prox) {
-        if(p->info == valor) {
+        if (p->info == valor) {
             return p;
         }
     }

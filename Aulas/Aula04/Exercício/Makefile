@@ -13,4 +13,4 @@ run:
 clean:
 	rm -f lista.o programa.o programa
 
-all: programa run clean
+all: programa run
