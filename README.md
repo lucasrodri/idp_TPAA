@@ -14,6 +14,14 @@ Este repositório contém os arquivos fontes desenvolvidos na disciplina
 
     1.2. [Tipo Abstrato de Dados](Aulas/Aula03)
 
+    1.3. [Listas](Aulas/Aula04)
+
+    1.4. [Pilhas](Aulas/Aula05)
+
+    1.5. [Filas](Aulas/Aula06)
+
+    2.0. [Análise e Complexidade de Algoritmos](Aulas/Aula07)
+
 ## Autor
 
 Professor: Dr. Lucas Rodrigues Costa
