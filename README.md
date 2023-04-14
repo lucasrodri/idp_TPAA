@@ -22,6 +22,10 @@ Este repositório contém os arquivos fontes desenvolvidos na disciplina
 
     2.0. [Análise e Complexidade de Algoritmos](Aulas/Aula07)
 
+    3.1. [Principais Algoritmos de Busca em Estrutura de Dados](Aulas/Aula09)
+
+    3.2. [Principais Algoritmos de Ordenação em Estrutura de Dados](Aulas/Aula10)
+
 ## Autor
 
 Professor: Dr. Lucas Rodrigues Costa
