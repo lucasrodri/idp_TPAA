@@ -26,6 +26,8 @@ Este repositório contém os arquivos fontes desenvolvidos na disciplina
 
     3.2. [Principais Algoritmos de Ordenação em Estrutura de Dados](Aulas/Aula10)
 
+    3.3. [Busca em Estruturas Utilizando Tabela Hash](Aulas/Aula11)
+
 ## Autor
 
 Professor: Dr. Lucas Rodrigues Costa
