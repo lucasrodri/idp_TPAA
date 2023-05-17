@@ -18,5 +18,5 @@ void imprimeListaAlunos(ListaAlunos* lista);
 void imprimeListaAlunosMat(ListaAlunos* lista);
 int buscaAlunoLista(ListaAlunos* lista, int mat, Aluno *al);
 void percorrer(ListaAlunos *l);
-ListaAlunos* inserirAlunoLista(ListaAlunos *l, Aluno al);
+void inserirAlunoLista(ListaAlunos *l, Aluno al);
 int removerAlunoLista(ListaAlunos *l, int mat);
