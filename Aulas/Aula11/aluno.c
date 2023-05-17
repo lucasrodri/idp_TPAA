@@ -65,15 +65,15 @@ void percorrer(ListaAlunos *l) {
     }
 }
 
-void inserirAlunoLista(ListaAlunos *l, Aluno al) {
+void inserirAlunoLista(ListaAlunos **l, Aluno al) {
     //inserção no final da lista
     ListaAlunos *novo = (ListaAlunos*) malloc(sizeof(ListaAlunos));
     novo->aluno = al;
     novo->prox = NULL;
-    if (l == NULL) {
-        l = novo;
+    if (*l == NULL) {
+        *l = novo;
     } else {
-        ListaAlunos *p = l;
+        ListaAlunos *p = *l;
         while (p->prox != NULL) {
             p = p->prox;
         }

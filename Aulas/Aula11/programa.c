@@ -35,10 +35,10 @@ int main() {
     //criando uma tabela hash com endereco separado
     HashSeparado *haSeparado = criaHashSeparado(TABLE_SIZE);
 
-    insereHash_EnderSepatado(haSeparado, *alunos[0]);
-    insereHash_EnderSepatado(haSeparado, *alunos[1]);
-    insereHash_EnderSepatado(haSeparado, *alunos[2]);
-    insereHash_EnderSepatado(haSeparado, *alunos[3]);
+    insereHash_EnderSeparado(haSeparado, *alunos[0]);
+    insereHash_EnderSeparado(haSeparado, *alunos[1]);
+    insereHash_EnderSeparado(haSeparado, *alunos[2]);
+    insereHash_EnderSeparado(haSeparado, *alunos[3]);
 
     imprimeHashSeparado(haSeparado);
 

@@ -254,7 +254,7 @@ void liberaHashSeparado(HashSeparado *ha){
 
 // Funções de inserção e busca quando HÁ COLISÕES!!!
 // ENDEREÇAMENTO SEPARADO!!!
-int insereHash_EnderSepatado(HashSeparado *ha, Aluno al) {
+int insereHash_EnderSeparado(HashSeparado *ha, Aluno al) {
     if (ha == NULL || ha->qtd == ha->TABLE_SIZE) {
         return 0;
     }
@@ -275,7 +275,7 @@ int insereHash_EnderSepatado(HashSeparado *ha, Aluno al) {
         ha->itens[pos] = lista;
     } else {
         // lista já existe, insere no final da lista
-        inserirAlunoLista(lista, al);
+        inserirAlunoLista(&lista, al);
     }
     return 1;
 }

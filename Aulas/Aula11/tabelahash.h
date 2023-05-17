@@ -40,7 +40,7 @@ int buscaHash_EnderAberto(Hash *ha, int mat, Aluno *al);
 int removeHash_EnderAberto(Hash *ha, int mat);
 
 // Funcoes de insercao, busca e remocao na tabela hash com colisao (enderecamento separado)
-int insereHash_EnderSepatado(HashSeparado *ha, Aluno al);
+int insereHash_EnderSeparado(HashSeparado *ha, Aluno al);
 int buscaHash_EnderSeparado(HashSeparado *ha, int mat, Aluno *al);
 int removeHash_EnderSeparado(HashSeparado *ha, int mat);
 
