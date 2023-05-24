@@ -28,6 +28,12 @@ Este repositório contém os arquivos fontes desenvolvidos na disciplina
 
     3.3. [Busca em Estruturas Utilizando Tabela Hash](Aulas/Aula11)
 
+    4.1. [Uso de Grafos e seus Principais Métodos de Manipulação](Aulas/Aula12)
+
+    4.2. [Busca e Menor Caminho em um Grafo](Aulas/Aula13)
+
+    4.3. [Grafos AGM (Árvore Geradora Mínima)](Aulas/Aula14)
+
 ## Autor
 
 Professor: Dr. Lucas Rodrigues Costa
