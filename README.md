@@ -34,6 +34,8 @@ Este repositório contém os arquivos fontes desenvolvidos na disciplina
 
     4.3. [Grafos AGM (Árvore Geradora Mínima)](Aulas/Aula14)
 
+    5.2. [Estrutura de Dados baseado em Árvores Binárias](Aulas/Aula15)
+
 ## Autor
 
 Professor: Dr. Lucas Rodrigues Costa
