@@ -23,8 +23,8 @@ void libera_NO(ArvBin** no) {
 void libera_ArvBin(ArvBin** raiz) {
     if (*raiz == NULL)
         return;
-    libera_NO(raiz);
-    free(*raiz);
+    libera_NO(raiz);//libera cada nó
+    free(*raiz);//libera a raiz
 }
 
 int altura_ArvBin(ArvBin* raiz) {
