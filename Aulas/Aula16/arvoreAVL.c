@@ -106,7 +106,6 @@ int insere_ArvAVL(ArvAVL** raiz, int valor) {
             if ((res = insere_ArvAVL(&(atual->dir), valor)) == 1) {
                 if (fatorBalanceamento_NO(atual) >= 2) {
                     if ((*raiz)->dir->info < valor) {
-                        printf("RotacaoRR feita\n");
                         RotacaoRR(raiz);
                     } else {
                         RotacaoRL(raiz);
