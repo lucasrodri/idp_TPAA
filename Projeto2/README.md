@@ -1,6 +1,6 @@
-# Técnicas de Programação e Análise de Algoritmos PROJETO 1
+# Técnicas de Programação e Análise de Algoritmos PROJETO 2
 
-Arquivo binário com o executável do Projeto 1 
+Arquivos binários com os códigos executáveis do Projeto 2 (```server``` e ```main```)
 
 ## Exemplo de uso
 
